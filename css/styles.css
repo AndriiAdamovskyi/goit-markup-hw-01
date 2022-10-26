@@ -45,14 +45,15 @@
   --font-portfolio-type-height: 30px;
 
   /*** Margins ***/
-  --margin-to-main-content-215: 215px;
+  --margin-to-main-content-200: 200px;
   --margin-94: 94px;
   --margin-50: 50px;
   --margin-30: 30px;
 
   /*** Paddings ***/
-  --padding-200: 200px;
-  --padding-94: 94px;
+  --padding-main-content: 200px;
+  --padding-gutter-horizontal-elements: 15px;
+  --padding-vertical-sections: 90px;
   --padding-50: 50px;
   --padding-30: 30px;
   --padding-button: 10px 32px;
@@ -82,11 +83,12 @@ a {
 /*! Header !*/
 .header {
   height: var(--header-height);
-  margin: 0 var(--margin-to-main-content-215);
+  margin: 0 var(--margin-to-main-content-200);
+  padding: 0 var(--padding-gutter-horizontal-elements);
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /** Logo **/
@@ -107,10 +109,12 @@ a {
 /** Navigation **/
 .navigation-items {
   display: flex;
+  justify-content: flex-start;
+  padding: 0;
 }
 
 .navigation-item {
-  padding: 0 var(--padding-50);
+  padding-right: var(--padding-50);
 }
 
 /** Contact **/
@@ -137,7 +141,7 @@ a {
 }
 
 .hero-content {
-  padding: var(--padding-200);
+  padding: var(--padding-main-content);
   display: flex;
   flex-direction: column;
   justify-content: center;
