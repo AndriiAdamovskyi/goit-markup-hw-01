@@ -14,21 +14,34 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./"><span lang="en" class="logo-1">Web</span><span lang="en" class="logo-2">Studio</span></a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+    <header class="header">
+      <p class="logo">
+          <a href="./">
+            <span lang="en" class="logo-1">Web</span>
+            <span lang="en" class="logo-2">Studio</span>
+          </a>
+        </p>
+      <nav class="navigation">
+        <ul class="navigation-items">
+          <li class="navigation-item selected">
+            <a href="./index.html" class="selected">Студія</a>
+          </li>
+          <li class="navigation-item">
+            <a href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="navigation-item"><a href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="contact-item mail"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="contact-item phone"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -147,7 +160,10 @@
       </section>
     </main>
     <footer>
-      <a href="./"><span lang="en" class="logo-1">Web</span><span lang="en" class="logo-2">Studio</span></a>
+      <a href="./"
+        ><span lang="en" class="logo-1">Web</span
+        ><span lang="en" class="logo-2">Studio</span></a
+      >
       <address>
         <ul>
           <li>

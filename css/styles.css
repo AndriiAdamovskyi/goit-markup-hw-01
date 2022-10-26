@@ -71,3 +71,48 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/*** Header ***/
+.header {
+  height: 80px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/** Logo **/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: var(--font-weight-700);
+}
+
+.logo-1,
+.selected {
+  color: var(--color-accent);
+}
+
+.logo-2 {
+  color: #000000;
+}
+
+/** Navigation **/
+.navigation-items {
+  display: flex;
+}
+
+.navigation-item {
+  padding: 0 var(--padding-50);
+}
+
+/** Contact **/
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.contact-item {
+  padding: 0 var(--padding-50);
+}
