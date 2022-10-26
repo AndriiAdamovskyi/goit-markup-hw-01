@@ -1,10 +1,48 @@
 :root {
-  /* Colors */
+  /*** Colors ***/
   --color-primary: #212121;
   --color-secondary: #757575;
   --color-background: #ffffff;
-  --color-accent: #2196F3;
-  --color-hero: #2F303A;
+  --color-accent: #2196f3;
+  --color-hero: #2f303a;
+
+  /*** Fonts ***/
+
+  /* weights */
+  --font-weight-900: 900;
+  --font-weight-700: 700;
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+  /* letter-spacings */
+  --font-letter-spacing-006: 0.06em;
+  --font-letter-spacing-003: 0.03em;
+
+  /* H1 */
+  --font-h1-size: 44px;
+  --font-h1-height: 60px;
+  /* H2 */
+  --font-h2-size: 36px;
+  --font-h2-height: 42px;
+  /* H3 */
+  --font-h3-size: 14px;
+  --font-h3-height: 16px;
+  /* button */
+  --font-button-size: 16px;
+  --font-button-height: 30px;
+  /* advantages-text */
+  --font-advantages-text-size: 14px;
+  --font-advantages-text-height: 24px;
+  /* team */
+  --font-team-text-size: 16px;
+  --font-team-height: 19px;
+  --font-team-letter-spacing: 0.03em;
+  /* Portfolio */
+  /* portfolio-title */
+  --font-portfolio-title-text-size: 18px;
+  --font-portfolio-title-height: 36px;
+  /* portfolio-type */
+  --font-portfolio-type-text-size: 16px;
+  --font-portfolio-type-height: 30px;
 }
 
 body {
