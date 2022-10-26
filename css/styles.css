@@ -47,7 +47,7 @@
   /*** Margins ***/
   --margin-200: 200px;
   --margin-94: 94px;
-  --margin-30: 30px
+  --margin-30: 30px;
 
   /*** Paddings ***/
   --padding-200: 200px;
@@ -59,6 +59,7 @@
 body {
   background-color: var(--color-background);
   font-family: 'Roboto', sans-serif;
+  width: 1600px;
   margin: 0 var(--margin-200);
 }
 
