@@ -43,6 +43,16 @@
   /* portfolio-type */
   --font-portfolio-type-text-size: 16px;
   --font-portfolio-type-height: 30px;
+
+  /*** Margins ***/
+  --margin-200: 200px;
+  --margin-94: 94px;
+  --margin-30: 30px
+
+  /*** Paddings ***/
+  --padding-200: 200px;
+  --padding-94: 94px;
+  --padding-30: 30px;
 }
 
 body {
