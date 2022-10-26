@@ -47,6 +47,7 @@
   /*** Margins ***/
   --margin-200: 200px;
   --margin-94: 94px;
+  --margin-50: 50px;
   --margin-30: 30px;
 
   /*** Paddings ***/
@@ -79,7 +80,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /** Logo **/
@@ -114,5 +115,5 @@ a {
 }
 
 .contact-item {
-  padding: 0 var(--padding-50);
+  margin-left: var(--margin-50);
 }
