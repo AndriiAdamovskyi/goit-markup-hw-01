@@ -56,6 +56,7 @@
   --padding-vertical-sections: 90px;
   --padding-50: 50px;
   --padding-30: 30px;
+  --padding-10: 10px;
   --padding-button: 10px 32px;
 
   /*** Widths & heights ***/
@@ -231,4 +232,61 @@ a {
 
 .working-list-item {
   padding: 0 var(--padding-gutter-horizontal-elements);
+}
+
+/*! Team !*/
+
+.team-title {
+  color: var(--color-primary);
+
+  font-weight: 700;
+  font-size: var(--font-h2-size);
+  line-height: var(--font-h2-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.team-list {
+  margin: var(--padding-50) var(--margin-to-main-content-200);
+  padding: 0;
+  display: flex;
+}
+
+.team-list-item {
+  padding: 0 var(--padding-gutter-horizontal-elements);
+}
+
+.team-details {
+  padding: var(--padding-30);
+}
+
+.team-name {
+  color: var(--color-primary);
+
+  font-weight: 700;
+  font-size: var(--font-team-text-size);
+  line-height: var(--font-team-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  text-align: center;
+
+  padding-bottom: var(--padding-10);
+  margin: 0;
+}
+
+.team-position {
+  color: var(--color-secondary);
+
+  font-weight: 400;
+  font-size: var(--font-team-text-size);
+  line-height: var(--font-team-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  text-align: center;
+
+  margin: 0;
 }
