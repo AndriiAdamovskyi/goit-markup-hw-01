@@ -45,7 +45,7 @@
   --font-portfolio-type-height: 30px;
 
   /*** Margins ***/
-  --margin-200: 200px;
+  --margin-to-main-content-215: 215px;
   --margin-94: 94px;
   --margin-50: 50px;
   --margin-30: 30px;
@@ -56,13 +56,18 @@
   --padding-50: 50px;
   --padding-30: 30px;
   --padding-button: 10px 32px;
+
+ /*** Widths & heights ***/
+  --total-page-width: 1600px;
+  --header-height: 80px;
+  --width-h1: 700px;
 }
 
 body {
   background-color: var(--color-background);
   font-family: 'Roboto', sans-serif;
-  width: 1600px;
-  margin: 0 var(--margin-200);
+  width: var(--total-page-width);
+  margin: auto;
 }
 
 ul {
@@ -74,10 +79,10 @@ a {
   color: inherit;
 }
 
-/*** Header ***/
+/*! Header !*/
 .header {
-  height: 80px;
-  margin: 0 15px;
+  height: var(--header-height);
+  margin: 0 var(--margin-to-main-content-215);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -120,7 +125,8 @@ a {
 }
 
 
-/*** Hero section ***/
+
+/*! Hero section !*/
 .hero-section {
   background-color: var(--color-hero);
   color: var(--color-background);
@@ -138,8 +144,16 @@ a {
 }
 
 .hero-title {
+  font-size: var(--font-h1-size);
+  line-height: var(--font-h1-height);
+
   text-transform: uppercase;
   text-align: center;
+  
+  width: var(--width-h1);
+
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .hero-button {
