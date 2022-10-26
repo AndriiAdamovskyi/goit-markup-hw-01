@@ -10,3 +10,7 @@
 body {
   background-color: var(--color-background);
 }
+
+ul {
+  list-style: none;
+}
