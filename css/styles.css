@@ -176,3 +176,37 @@ a {
   /* shrinks button to it's own size  */
   margin: auto;
 }
+
+
+
+/*! Our Advantages !*/
+.advantages {
+  margin: auto;
+}
+
+.advantages-list {
+  margin: var(--padding-vertical-sections) var(--margin-to-main-content-200);
+  padding: var(--padding-gutter-horizontal-elements);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.advantages-item {
+  padding: 0;
+}
+
+.advantages-title {
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  color: var(--color-secondary);
+  
+  font-weight: 400;
+  font-size: var(--font-advantages-text-size);
+  line-height: var(--font-advantages-text-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  inline-size: 270px;
+}
