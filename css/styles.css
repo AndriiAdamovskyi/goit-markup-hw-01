@@ -58,7 +58,7 @@
   --padding-30: 30px;
   --padding-button: 10px 32px;
 
- /*** Widths & heights ***/
+  /*** Widths & heights ***/
   --total-page-width: 1600px;
   --header-height: 80px;
   --width-h1: 700px;
@@ -128,8 +128,6 @@ a {
   margin-left: var(--margin-50);
 }
 
-
-
 /*! Hero section !*/
 .hero-section {
   background-color: var(--color-hero);
@@ -153,7 +151,7 @@ a {
 
   text-transform: uppercase;
   text-align: center;
-  
+
   width: var(--width-h1);
 
   margin: auto;
@@ -171,13 +169,11 @@ a {
   font-weight: 700;
   font-size: var(--font-button-size);
   line-height: var(--font-button-height);
-  
+
   padding: var(--padding-button);
   /* shrinks button to it's own size  */
   margin: auto;
 }
-
-
 
 /*! Our Advantages !*/
 .advantages {
@@ -202,11 +198,37 @@ a {
 
 .advantages-text {
   color: var(--color-secondary);
-  
+
   font-weight: 400;
   font-size: var(--font-advantages-text-size);
   line-height: var(--font-advantages-text-height);
   letter-spacing: var(--font-letter-spacing-003);
 
   inline-size: 270px;
+}
+
+/*! Working !*/
+
+.working-title {
+  color: var(--color-primary);
+
+  font-weight: 700;
+  font-size: var(--font-h2-size);
+  line-height: var(--font-h2-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.working-list {
+  margin: var(--padding-50) var(--margin-to-main-content-200);
+  padding: 0;
+  display: flex;
+}
+
+.working-list-item {
+  padding: 0 var(--padding-gutter-horizontal-elements);
 }
