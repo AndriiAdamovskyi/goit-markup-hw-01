@@ -396,9 +396,6 @@ a {
 }
 
 .portfolio-filter-button {
-  background-color: #f5f4fa;
-  color: var(--color-primary);
-
   font-weight: 500;
   font-size: var(--font-portfolio-filter-button-size);
   line-height: var(--font-portfolio-filter-button-height);
@@ -451,5 +448,17 @@ a {
 }
 
 .portfolio-list-item-title {
-  padding-bottom: 4px;
+  font-weight: 700;
+  font-size: var(--font-portfolio-title-text-size);
+  line-height: var(--font-portfolio-title-height);
+  letter-spacing: var(--font-letter-spacing-003);
+}
+
+.portfolio-list-item-type {
+  color: var(--color-secondary);
+
+  font-weight: 400;
+  font-size: var(--font-portfolio-type-text-size);
+  line-height: var(--font-portfolio-type-height);
+  letter-spacing: var(--font-letter-spacing-006);
 }
