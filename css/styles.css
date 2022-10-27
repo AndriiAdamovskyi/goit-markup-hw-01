@@ -26,6 +26,9 @@
   /* H3 */
   --font-h3-size: 14px;
   --font-h3-height: 16px;
+  /* logo */
+  --font-logo-size: 26px;
+  --font-logo-height: 31px;
   /* button */
   --font-button-size: 16px;
   --font-button-height: 30px;
@@ -61,8 +64,9 @@
 
   /*** Widths & heights ***/
   --total-page-width: 1600px;
-  --header-height: 80px;
   --width-h1: 700px;
+  --header-height: 80px;
+  --footer-height: 252px;
 }
 
 body {
@@ -96,6 +100,16 @@ a {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: var(--font-weight-700);
+
+  font-size: var(--font-logo-size);
+  line-height: var(--font-logo-height);
+  letter-spacing: var(--font-letter-spacing-003);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  padding: 0;
 }
 
 .logo-1,
@@ -105,6 +119,10 @@ a {
 
 .logo-2 {
   color: #000000;
+}
+
+.logo-2.white {
+  color: var(--color-background);
 }
 
 /** Navigation **/
@@ -303,4 +321,51 @@ a {
   text-align: center;
 
   margin: 0;
+}
+
+/*! Footer !*/
+.footer {
+  background-color: var(--color-hero);
+  color: var(--color-background);
+  height: var(--footer-height);
+  display: flex;
+
+}
+
+.footer-list {
+  margin: 0 var(--margin-to-main-content-200);
+  padding: 0 var(--padding-gutter-horizontal-elements);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-list-item {
+  padding-top: 20px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: var(--font-advantages-text-size);
+  line-height: var(--font-advantages-text-height);
+  letter-spacing: var(--font-letter-spacing-003);
+  font-style: normal;
+  text-align: left;
+}
+
+.address-list {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+}
+
+.address-list-item {
+  padding-bottom: 9px;
+}
+
+.address-list-item.translucent {
+  opacity: 0.5;
 }
