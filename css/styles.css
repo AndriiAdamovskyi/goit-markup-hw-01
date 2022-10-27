@@ -385,14 +385,15 @@ a {
 
 .portfolio-filters {
   display: flex;
-  justify-content: center;
+  justify-content:center;
 
   margin: 0px;
-  padding: 0px;
+  padding: 0;
   padding-bottom: var(--padding-50);
 }
 
 .portfolio-filter-button {
+  background-color: #F5F4FA;
   color: var(--color-primary);
 
   font-weight: 500;
@@ -402,7 +403,9 @@ a {
   text-align: center;
 
   border: none;
+  border-radius: 4px;
 
+  margin: 0 4px;
   padding: var(--padding-button);
 }
 
