@@ -4,7 +4,7 @@
   --color-secondary: #757575;
   --color-background: #ffffff;
   --color-accent: #2196f3;
-  --color-button-active: #188CE8;
+  --color-button-active: #188ce8;
   --color-hero: #2f303a;
   --color-black: #000000;
 
@@ -120,7 +120,7 @@ a {
 }
 
 .logo-footer {
-  color: var(--color-background)
+  color: var(--color-background);
 }
 
 /** Navigation **/
@@ -134,7 +134,6 @@ a {
   align-items: center;
   padding: 0;
   margin: 0;
-
 }
 
 .navigation-item {
@@ -142,7 +141,7 @@ a {
 }
 
 .navigation-item:hover {
-  color: var(--color-accent); 
+  color: var(--color-accent);
 }
 
 .navigation-item:focus {
@@ -221,6 +220,19 @@ a {
 }
 
 /*! Our Advantages !*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .advantages {
   margin: auto;
   margin-top: 94px;
