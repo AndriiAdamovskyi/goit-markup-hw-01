@@ -151,7 +151,7 @@ a {
   margin-left: var(--margin-50);
 }
 
-.contact-item.mail {
+.contact-item:hover {
   color: var(--color-accent);
 }
 
@@ -374,6 +374,10 @@ a {
   padding-bottom: 9px;
 }
 
+.address-list-item:hover {
+  color: var(--color-accent);
+}
+
 .address-list-item.translucent {
   opacity: 0.5;
 }
@@ -385,7 +389,7 @@ a {
 
 .portfolio-filters {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 
   margin: 0px;
   padding: 0;
@@ -393,7 +397,7 @@ a {
 }
 
 .portfolio-filter-button {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: var(--color-primary);
 
   font-weight: 500;
@@ -409,7 +413,11 @@ a {
   padding: var(--padding-button);
 }
 
-.portfolio-filter-button.active {
+.portfolio-filter-button:hover {
+  cursor: pointer;
+}
+
+.portfolio-filter-button:focus {
   background-color: var(--color-accent);
   color: var(--color-background);
 
