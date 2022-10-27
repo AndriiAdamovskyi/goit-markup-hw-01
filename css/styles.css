@@ -183,7 +183,7 @@ a {
 
 .advantages-list {
   margin: var(--padding-vertical-sections) var(--margin-to-main-content-200);
-  padding: var(--padding-gutter-horizontal-elements);
+  padding: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -194,6 +194,7 @@ a {
 }
 
 .advantages-title {
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -206,6 +207,9 @@ a {
   letter-spacing: var(--font-letter-spacing-003);
 
   inline-size: 270px;
+
+  margin: 0px;
+  margin-top: 10px;
 }
 
 /*! Working !*/
