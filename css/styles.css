@@ -146,6 +146,10 @@ a {
   cursor: pointer;
 }
 
+.link.current {
+  color: var(--color-accent);
+}
+
 /** Contact **/
 .contact {
   display: flex;
