@@ -5,6 +5,7 @@
   --color-background: #ffffff;
   --color-accent: #2196f3;
   --color-hero: #2f303a;
+  --color-black: #000000;
 
   /*** Fonts ***/
 
@@ -109,19 +110,16 @@ a {
   justify-content: flex-start;
 
   padding: 0;
-}
 
-.logo-1,
-.selected {
   color: var(--color-accent);
 }
 
-.logo-2 {
-  color: #000000;
+.logo-header {
+  color: var(--color-black);
 }
 
-.logo-2.white {
-  color: var(--color-background);
+.logo-footer {
+  color: var(--color-background)
 }
 
 /** Navigation **/
