@@ -179,6 +179,7 @@ a {
 /*! Our Advantages !*/
 .advantages {
   margin: auto;
+  margin-top: 94px;
 }
 
 .advantages-list {
@@ -213,6 +214,10 @@ a {
 }
 
 /*! Working !*/
+.working {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 
 .working-title {
   color: var(--color-primary);
@@ -239,6 +244,11 @@ a {
 }
 
 /*! Team !*/
+.team {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-top: 94px;
+}
 
 .team-title {
   color: var(--color-primary);
