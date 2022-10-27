@@ -75,7 +75,7 @@
 
 body {
   background-color: var(--color-background);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   width: var(--total-page-width);
   margin: auto;
 }
@@ -102,7 +102,7 @@ a {
 
 /** Logo **/
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Gotham', sans-serif;
   font-weight: var(--font-weight-700);
 
   font-size: var(--font-logo-size);
