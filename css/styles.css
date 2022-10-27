@@ -147,6 +147,10 @@ a {
   margin-left: var(--margin-50);
 }
 
+.contact-item.mail {
+  color: var(--color-accent);
+}
+
 /*! Hero section !*/
 .hero-section {
   background-color: var(--color-hero);
