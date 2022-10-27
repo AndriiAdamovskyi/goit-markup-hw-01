@@ -46,6 +46,9 @@
   /* portfolio-type */
   --font-portfolio-type-text-size: 16px;
   --font-portfolio-type-height: 30px;
+  /* portfolio-filter-button */
+  --font-portfolio-filter-button-size: 16px;
+  --font-portfolio-filter-button-height: 26px;
 
   /*** Margins ***/
   --margin-to-main-content-200: 200px;
@@ -56,11 +59,12 @@
   /*** Paddings ***/
   --padding-main-content: 200px;
   --padding-gutter-horizontal-elements: 15px;
-  --padding-vertical-sections: 90px;
+  --padding-vertical-sections: 94px;
   --padding-50: 50px;
   --padding-30: 30px;
   --padding-10: 10px;
-  --padding-button: 10px 32px;
+  --padding-hero-button: 10px 32px;
+  --padding-button: 6px 22px;
 
   /*** Widths & heights ***/
   --total-page-width: 1600px;
@@ -193,7 +197,7 @@ a {
   font-size: var(--font-button-size);
   line-height: var(--font-button-height);
 
-  padding: var(--padding-button);
+  padding: var(--padding-hero-button);
   /* shrinks button to it's own size  */
   margin: auto;
 }
@@ -333,7 +337,6 @@ a {
   color: var(--color-background);
   height: var(--footer-height);
   display: flex;
-
 }
 
 .footer-list {
@@ -373,4 +376,70 @@ a {
 
 .address-list-item.translucent {
   opacity: 0.5;
+}
+
+/*! Portfolio !*/
+.portfolio {
+  padding: var(--padding-vertical-sections) var(--padding-main-content);
+}
+
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: var(--padding-50);
+}
+
+.portfolio-filter-button {
+  color: var(--color-primary);
+
+  font-weight: 500;
+  font-size: var(--font-portfolio-filter-button-size);
+  line-height: var(--font-portfolio-filter-button-height);
+  letter-spacing: var(--font-letter-spacing-003);
+  text-align: center;
+
+  border: none;
+
+  padding: var(--padding-button);
+}
+
+.portfolio-filter-button.active {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.portfolio-list-item {
+  padding: var(--padding-gutter-horizontal-elements);
+}
+
+.portfolio-list-item-text {
+  margin: 0px;
+  padding: 20px 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-list-item-title,
+.portfolio-list-item-type {
+  margin: 0px;
+}
+
+.portfolio-list-item-title {
+  padding-bottom: 4px;
 }
