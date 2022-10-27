@@ -396,6 +396,8 @@ a {
 }
 
 .portfolio-filter-button {
+  background-color: var(--color-background);
+
   font-weight: 500;
   font-size: var(--font-portfolio-filter-button-size);
   line-height: var(--font-portfolio-filter-button-height);
