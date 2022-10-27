@@ -140,11 +140,9 @@ a {
   padding-left: var(--padding-50);
 }
 
+.navigation-item:focus,
 .navigation-item:hover {
   color: var(--color-accent);
-}
-
-.navigation-item:focus {
   cursor: pointer;
 }
 
@@ -209,8 +207,8 @@ a {
   /* shrinks button to it's own size  */
   margin: auto;
 }
-
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:hover {
   background-color: var(--color-button-active);
   color: var(--color-background);
 }
@@ -404,11 +402,7 @@ a {
   padding-bottom: 9px;
 }
 
-.address-list-item:focus {
-  color: var(--color-accent);
-  cursor: pointer;
-}
-
+.address-list-item:focus,
 .address-list-item:hover {
   color: var(--color-accent);
   cursor: pointer;
@@ -434,6 +428,7 @@ a {
 
 .portfolio-filter-button {
   background-color: var(--color-background);
+  color: var(--color-primary);
 
   font-weight: 500;
   font-size: var(--font-portfolio-filter-button-size);
@@ -448,14 +443,12 @@ a {
   padding: var(--padding-button);
 }
 
+.portfolio-filter-button:focus,
 .portfolio-filter-button:hover {
-  cursor: pointer;
-}
+  background-color: var(--color-button-active);
+    color: var(--color-background); 
 
-.portfolio-filter-button:focus {
-  background-color: var(--color-accent);
-  color: var(--color-background);
-
+  /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
