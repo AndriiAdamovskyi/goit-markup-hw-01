@@ -197,6 +197,10 @@ a {
   margin: auto;
 }
 
+.hero-button:hover {
+  cursor: pointer;
+}
+
 /*! Our Advantages !*/
 .advantages {
   margin: auto;
